@@ -10,7 +10,7 @@
   The sole purpose of this project is to create a way of Vault server which is running outside of AWS to authenticate to AWS without the need of hardcoded credentials.
 
 ### Simple diagram:
-![Diagram](https://lucid.app/publicSegments/view/e8da7097-299d-47f3-b3eb-2ac73b776118/image.png)
+![Diagram](https://camo.githubusercontent.com/b9d8dd8eeaf3c8d9438acb3ab243b36890aed616ac4e8275c2dd35ed06f2f05b/68747470733a2f2f6c756369642e6170702f7075626c69635365676d656e74732f766965772f65386461373039372d323939642d343766332d623365622d3261633733623737363131382f696d6167652e706e67)
 
 ### Prerequisites:
   - Having AWS account
