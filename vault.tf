@@ -74,7 +74,7 @@ resource "vault_aws_auth_backend_role" "aws_iam_type_auth_wif" {
   backend                  = vault_auth_backend.aws.path
   role                     = "wif-demo-acc-role"
   auth_type                = "iam"
-  bound_iam_principal_arns = ["arn:aws:iam::123361688033:role/wif-irsa-demo-role"]
+  bound_iam_principal_arns = ["arn:aws:iam::123361688033:role/wif-irsa-demo-role","arn:aws:iam::123361688033:role/aws_mhristov_test-developer"]
   token_ttl                = 60
   token_max_ttl            = 120
   token_policies           = ["devwebapp"]

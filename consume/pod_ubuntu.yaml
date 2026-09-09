@@ -18,5 +18,5 @@ spec:
   serviceAccountName: wif-demo-acc
   containers:
   - name: ubuntu
-    image: ubuntu
+    image: curl
     command: ["/bin/sleep", "999999"]
